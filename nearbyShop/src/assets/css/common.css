@@ -1,0 +1,93 @@
+html{font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:"microsoft yahei",Arial,sans-serif;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:0}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+.clearfloat:after{display:block;content:"clear";height:0;clear:both;overflow:hidden;visibility:hidden}
+.clearfloat{zoom:1}
+.fl{float: left;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt50{margin-top: 50px;}
+.mt70{margin-top: 70px;}
+.ml10{margin-left: 10px;}
+.ml15{margin-left: 15px;}
+.ml100{margin-left: 100px;}
+.ml30{margin-left: 30px;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs22{font-size: 22px;}
+.fs24{font-size: 24px;}
+.fs30{font-size: 30px!important;}
+.pt50{padding-top: 50px;}
+.pb30{padding-bottom: 30px;}
+.min-height{min-height: 800px;}
+.pos-re{position: relative;}
+.pos-ab{position: absolute;}
+.fw{font-weight: bold;}
+.content-pad{
+  padding: 10px;
+}
+.color-error{
+  color: #ED4014;
+}
+.color-warning{
+  color: #FF9900;
+}
+.color-success{
+  color: #19BE6B;
+}
+.color-3{
+  color: #333333;
+}
+.color-6{
+  color: #666666;
+}
+.color-9{
+  color: #999999;
+}
+.checkWid{width: 200px!important;}
+@media screen and (max-width: 1440px) {
+  .checkWid{width: 100px!important;}
+}
+.middle-checkWid{width: 150px!important;}
+@media screen and (max-width: 1440px) {
+  .middle-checkWid{width: 100px!important;}
+}
+/* 设置主色调 */
+.masterColor{
+    background-color: #4B77B0;
+}
+/* 设置input和textarea中placeholder字体颜色和大小 */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #A1A1A1;
+    font-size: 13px;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #A1A1A1;
+    font-size: 13px;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #A1A1A1;
+    font-size: 13px;
+}
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+    color: #A1A1A1;
+    font-size: 13px;
+}
